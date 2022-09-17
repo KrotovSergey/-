@@ -1,0 +1,15 @@
+C:\Users\Хозяин\Desktop\GB\DZ_C\zadanie_2\obj\Debug\net6.0\zadanie_2.csproj.AssemblyReference.cache
+C:\Users\Хозяин\Desktop\GB\DZ_C\zadanie_2\obj\Debug\net6.0\zadanie_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Хозяин\Desktop\GB\DZ_C\zadanie_2\obj\Debug\net6.0\zadanie_2.AssemblyInfoInputs.cache
+C:\Users\Хозяин\Desktop\GB\DZ_C\zadanie_2\obj\Debug\net6.0\zadanie_2.AssemblyInfo.cs
+C:\Users\Хозяин\Desktop\GB\DZ_C\zadanie_2\obj\Debug\net6.0\zadanie_2.csproj.CoreCompileInputs.cache
+C:\Users\Хозяин\Desktop\GB\DZ_C\zadanie_2\bin\Debug\net6.0\zadanie_2.exe
+C:\Users\Хозяин\Desktop\GB\DZ_C\zadanie_2\bin\Debug\net6.0\zadanie_2.deps.json
+C:\Users\Хозяин\Desktop\GB\DZ_C\zadanie_2\bin\Debug\net6.0\zadanie_2.runtimeconfig.json
+C:\Users\Хозяин\Desktop\GB\DZ_C\zadanie_2\bin\Debug\net6.0\zadanie_2.dll
+C:\Users\Хозяин\Desktop\GB\DZ_C\zadanie_2\bin\Debug\net6.0\zadanie_2.pdb
+C:\Users\Хозяин\Desktop\GB\DZ_C\zadanie_2\obj\Debug\net6.0\zadanie_2.dll
+C:\Users\Хозяин\Desktop\GB\DZ_C\zadanie_2\obj\Debug\net6.0\refint\zadanie_2.dll
+C:\Users\Хозяин\Desktop\GB\DZ_C\zadanie_2\obj\Debug\net6.0\zadanie_2.pdb
+C:\Users\Хозяин\Desktop\GB\DZ_C\zadanie_2\obj\Debug\net6.0\zadanie_2.genruntimeconfig.cache
+C:\Users\Хозяин\Desktop\GB\DZ_C\zadanie_2\obj\Debug\net6.0\ref\zadanie_2.dll
