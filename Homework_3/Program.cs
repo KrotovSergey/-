@@ -7,6 +7,13 @@ int zadacha = int.Parse(Console.ReadLine());
 if (zadacha == 19) {
     Zadacha1();
     }
+    else if (zadacha == 21) {
+        Zadacha2();
+    }
+    else if(zadacha == 23)
+    {
+        Zadacha3();
+    } 
 
 
 void Zadacha1(){
@@ -38,4 +45,36 @@ void Zadacha1(){
             }
 } 
 
-void Zadacha2()
+void Zadacha2(){
+    Console.Clear();
+Console.WriteLine("Введите x1: ");
+int x1 = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Введите y1: ");
+int y1 = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Введите x2: ");
+int x2 = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Введите y2: ");
+int y2 = int.Parse(Console.ReadLine());
+
+double r = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
+
+Console.WriteLine($"Расстояние равно {Math.Round(r, 3)}");
+
+}
+
+void Zadacha3(){
+    Console.WriteLine("Введите число: ");
+
+    int a = int.Parse(Console.ReadLine());
+
+    int b = 1;
+
+    while( b<a)
+    {
+    Console.WriteLine(Math.Pow(b,3));
+    b++;
+    }
+}
