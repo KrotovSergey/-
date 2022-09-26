@@ -47,19 +47,25 @@ void Zadacha1(){
 
 void Zadacha2(){
     Console.Clear();
-Console.WriteLine("Введите x1: ");
-int x1 = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите xa: ");
+int xa = int.Parse(Console.ReadLine());
 
-Console.WriteLine("Введите y1: ");
-int y1 = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите ya: ");
+int ya = int.Parse(Console.ReadLine());
 
-Console.WriteLine("Введите x2: ");
-int x2 = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите za: ");
+int za = int.Parse(Console.ReadLine());
 
-Console.WriteLine("Введите y2: ");
-int y2 = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите xb: ");
+int xb = int.Parse(Console.ReadLine());
 
-double r = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
+Console.WriteLine("Введите yb: ");
+int yb = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Введите zb: ");
+int zb = int.Parse(Console.ReadLine());
+
+double r = Math.Sqrt(Math.Pow(xb - xa, 2) + Math.Pow(yb - ya, 2)+ Math.Pow(zb - za, 2));
 
 Console.WriteLine($"Расстояние равно {Math.Round(r, 3)}");
 
