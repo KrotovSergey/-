@@ -20,7 +20,7 @@ else if (zadacha == 29)
 
 void Zadacha1()
 {
-   Console.WriteLine("Введите число: ");
+    Console.WriteLine("Введите число: ");
 
     int a = int.Parse(Console.ReadLine());
 
@@ -34,42 +34,41 @@ void Zadacha1()
 
 void Zadacha2()
 {
-    Console.Clear();
-    Console.WriteLine("Введите xa: ");
-    int xa = int.Parse(Console.ReadLine());
+    Console.Write("Введите число: ");
+    int a = int.Parse(Console.ReadLine());
 
-    Console.WriteLine("Введите ya: ");
-    int ya = int.Parse(Console.ReadLine());
-
-    Console.WriteLine("Введите za: ");
-    int za = int.Parse(Console.ReadLine());
-
-    Console.WriteLine("Введите xb: ");
-    int xb = int.Parse(Console.ReadLine());
-
-    Console.WriteLine("Введите yb: ");
-    int yb = int.Parse(Console.ReadLine());
-
-    Console.WriteLine("Введите zb: ");
-    int zb = int.Parse(Console.ReadLine());
-
-    double r = Math.Sqrt(Math.Pow(xb - xa, 2) + Math.Pow(yb - ya, 2) + Math.Pow(zb - za, 2));
-
-    Console.WriteLine($"Расстояние равно {Math.Round(r, 3)}");
+    int SumNumber(int a)
+    {
+        int counter = Convert.ToString(a).Length;
+        int advance = 0;
+        int result = 0;
+        for (int i = 0; i < counter; i++)
+        {
+            advance = a - a % 10;
+            result = result + (a - advance);
+            a = a / 10;
+        }
+        return result;
+    }
+    int sumNumber = SumNumber(a);
+    Console.WriteLine("Сумма цифр в заданном числе: " + sumNumber);
 
 }
 
 void Zadacha3()
 {
-    Console.WriteLine("Введите число: ");
+    Console.Write("Из скольки чисел вы хотите увидеть массив?: ");
 
     int a = int.Parse(Console.ReadLine());
 
-    int b = 1;
+    int[] arr = new int[a];
 
-    while (b < a)
+    Random rand = new Random();
+
+    for (int i = 0; i < arr.Length; i++)
     {
-        Console.WriteLine(Math.Pow(b, 3));
-        b++;
+        arr[i] = rand.Next(0, 100);
     }
+    Console.WriteLine(string.Join(", ", arr));
+
 }
