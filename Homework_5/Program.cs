@@ -36,31 +36,31 @@ void Zadacha1()
 
     Console.WriteLine("массив: [ " + String.Join(",", Array) + " ]");
 
-    
-   
-    int[] FillArray(int size)
-{
-    int[] filledArray = new int[size];
-    for (int i = 0; i < filledArray.Length; i++)
-    {
-        filledArray[i] = new Random().Next(100, 999);
-    }
-    return filledArray;
-}
-    
 
-    for (int i = 0; i<Array.Length; i++)
+
+    int[] FillArray(int size)
+    {
+        int[] filledArray = new int[size];
+        for (int i = 0; i < filledArray.Length; i++)
+        {
+            filledArray[i] = new Random().Next(100, 999);
+        }
+        return filledArray;
+    }
+
+
+    for (int i = 0; i < Array.Length; i++)
     {
         if (Array[i] % 2 == 0)
-        count = count +1;
+            count = count + 1;
     }
-    
+
     Console.WriteLine($"Количество четных элементов= {count}");
 
 }
 void Zadacha2()
 {
-Console.WriteLine("Введите размер массива: ");
+    Console.WriteLine("Введите размер массива: ");
 
     int size = int.Parse(Console.ReadLine());
 
@@ -70,42 +70,69 @@ Console.WriteLine("Введите размер массива: ");
 
     Console.WriteLine("массив: [ " + String.Join(",", Array) + " ]");
 
-    
-   
-    int[] FillArray(int size)
-{
-    int[] filledArray = new int[size];
-    for (int i = 0; i < filledArray.Length; i++)
-    {
-        filledArray[i] = new Random().Next(1, 10);
-    }
-    return filledArray;
-}
-    
 
-    for (int i = 0; i<Array.Length; i = i + 1)
+
+    int[] FillArray(int size)
     {
-            if (i % 2 != 0)
+        int[] filledArray = new int[size];
+        for (int i = 0; i < filledArray.Length; i++)
+        {
+            filledArray[i] = new Random().Next(1, 10);
+        }
+        return filledArray;
+    }
+
+
+    for (int i = 0; i < Array.Length; i = i + 1)
+    {
+        if (i % 2 != 0)
             count = count + Array[i];
     }
-    
+
     Console.WriteLine($"Сумма нечетных элементов= {count}");
 
 }
 void Zadacha3()
 {
-    Console.Write("Из скольки чисел вы хотите увидеть массив?: ");
+    Console.WriteLine("Введите размер массива: ");
 
-    int a = int.Parse(Console.ReadLine());
+    int size = int.Parse(Console.ReadLine());
 
-    int[] arr = new int[a];
+    int[] Array = FillArray(size);
 
-    Random rand = new Random();
+    Console.WriteLine("массив: [ " + String.Join(",", Array) + " ]");
 
-    for (int i = 0; i < arr.Length; i++)
+    int difference = 0;
+
+    int min = 100;
+
+    int max = 0;
+
+
+    int[] FillArray(int size)
     {
-        arr[i] = rand.Next(0, 100);
+        int[] filledArray = new int[size];
+        for (int i = 0; i < filledArray.Length; i++)
+        {
+            filledArray[i] = new Random().Next(1, 100);
+        }
+        return filledArray;
     }
-    Console.WriteLine(string.Join(", ", arr));
 
+    
+    for (int i = 0; i < Array.Length; i++)
+    {
+        if (Array[i] > max)
+            max = Array[i];
+    }
+
+    for (int i = 0; i < Array.Length; i++)
+    {
+        if (Array[i] < min)
+            min = Array[i];
+    }
+
+    difference = max - min;
+
+    Console.WriteLine($"Разница между максимальным и минимальным элементом массива= {difference}");
 }
