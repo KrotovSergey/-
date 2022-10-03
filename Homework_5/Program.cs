@@ -26,18 +26,38 @@ else if (zadacha == 38)
 
 void Zadacha1()
 {
-    Console.WriteLine("Введите число: ");
+    Console.WriteLine("Введите размер массива: ");
 
-    int a = int.Parse(Console.ReadLine());
+    int size = int.Parse(Console.ReadLine());
 
-    Console.WriteLine("Введите число: ");
+    int[] Array = FillArray(size);
 
-    int b = int.Parse(Console.ReadLine());
+    int count = 0;
 
-    Console.WriteLine($"число {a} в степени {b} = {Math.Pow(a, b)}");
+    Console.WriteLine("массив: [ " + String.Join(",", Array) + " ]");
+
+    
+   
+    int[] FillArray(int size)
+{
+    int[] filledArray = new int[size];
+    for (int i = 0; i < filledArray.Length; i++)
+    {
+        filledArray[i] = new Random().Next(100, 999);
+    }
+    return filledArray;
+}
+    
+
+    for (int i = 0; i<Array.Length; i++)
+    {
+        if (Array[i] % 2 == 0)
+        count = count +1;
+    }
+    
+    Console.WriteLine($"Количество четных элементов= {count}");
 
 }
-
 void Zadacha2()
 {
     Console.Write("Введите число: ");
