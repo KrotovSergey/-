@@ -1,5 +1,15 @@
+C:\Users\Хозяин\Desktop\GB\DZ_C\Homework_5\bin\Debug\net6.0\Homework_5.exe
+C:\Users\Хозяин\Desktop\GB\DZ_C\Homework_5\bin\Debug\net6.0\Homework_5.deps.json
+C:\Users\Хозяин\Desktop\GB\DZ_C\Homework_5\bin\Debug\net6.0\Homework_5.runtimeconfig.json
+C:\Users\Хозяин\Desktop\GB\DZ_C\Homework_5\bin\Debug\net6.0\Homework_5.dll
+C:\Users\Хозяин\Desktop\GB\DZ_C\Homework_5\bin\Debug\net6.0\Homework_5.pdb
 C:\Users\Хозяин\Desktop\GB\DZ_C\Homework_5\obj\Debug\net6.0\Homework_5.csproj.AssemblyReference.cache
 C:\Users\Хозяин\Desktop\GB\DZ_C\Homework_5\obj\Debug\net6.0\Homework_5.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Хозяин\Desktop\GB\DZ_C\Homework_5\obj\Debug\net6.0\Homework_5.AssemblyInfoInputs.cache
 C:\Users\Хозяин\Desktop\GB\DZ_C\Homework_5\obj\Debug\net6.0\Homework_5.AssemblyInfo.cs
 C:\Users\Хозяин\Desktop\GB\DZ_C\Homework_5\obj\Debug\net6.0\Homework_5.csproj.CoreCompileInputs.cache
+C:\Users\Хозяин\Desktop\GB\DZ_C\Homework_5\obj\Debug\net6.0\Homework_5.dll
+C:\Users\Хозяин\Desktop\GB\DZ_C\Homework_5\obj\Debug\net6.0\refint\Homework_5.dll
+C:\Users\Хозяин\Desktop\GB\DZ_C\Homework_5\obj\Debug\net6.0\Homework_5.pdb
+C:\Users\Хозяин\Desktop\GB\DZ_C\Homework_5\obj\Debug\net6.0\Homework_5.genruntimeconfig.cache
+C:\Users\Хозяин\Desktop\GB\DZ_C\Homework_5\obj\Debug\net6.0\ref\Homework_5.dll
