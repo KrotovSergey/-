@@ -60,27 +60,38 @@ void Zadacha1()
 }
 void Zadacha2()
 {
-    Console.Write("Введите число: ");
-    int a = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите размер массива: ");
 
-    int SumNumber(int a)
+    int size = int.Parse(Console.ReadLine());
+
+    int[] Array = FillArray(size);
+
+    int count = 0;
+
+    Console.WriteLine("массив: [ " + String.Join(",", Array) + " ]");
+
+    
+   
+    int[] FillArray(int size)
+{
+    int[] filledArray = new int[size];
+    for (int i = 0; i < filledArray.Length; i++)
     {
-        int counter = Convert.ToString(a).Length;
-        int advance = 0;
-        int result = 0;
-        for (int i = 0; i < counter; i++)
-        {
-            advance = a - a % 10;
-            result = result + (a - advance);
-            a = a / 10;
-        }
-        return result;
+        filledArray[i] = new Random().Next(1, 10);
     }
-    int sumNumber = SumNumber(a);
-    Console.WriteLine("Сумма цифр в заданном числе: " + sumNumber);
+    return filledArray;
+}
+    
+
+    for (int i = 0; i<Array.Length; i = i + 1)
+    {
+            if (i % 2 != 0)
+            count = count + Array[i];
+    }
+    
+    Console.WriteLine($"Сумма нечетных элементов= {count}");
 
 }
-
 void Zadacha3()
 {
     Console.Write("Из скольки чисел вы хотите увидеть массив?: ");
